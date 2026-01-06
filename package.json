@@ -1,0 +1,25 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"cd Server && npm run server",
+    "client": "cd client && npm run dev",
+    "app":"concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirtan-bhavsar/GraphQL-Full-Stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirtan-bhavsar/GraphQL-Full-Stack/issues"
+  },
+  "homepage": "https://github.com/kirtan-bhavsar/GraphQL-Full-Stack#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
